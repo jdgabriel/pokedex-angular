@@ -1,27 +1,16 @@
-# PokedexAngular
+# Pokedex Angular
+<table border=0>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/47068314/139715211-58987e85-b934-458c-b78e-d39e0bcdf30c.png" alt="drawing" style="width:600px;"/></td>
+    <td><img src="https://user-images.githubusercontent.com/47068314/139715279-958b050e-4075-4826-bb4f-0b16cf0de092.png" alt="drawing" style="width:350px;"/></td>
+  </tr>
+</table>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
+### Ferramentas
+- Angular 12
+- Sass/Scss
+- PokeApi
 
-## Development server
+### Motivação
+Aprofundar estudos em Angular para melhorar minhas capacidades no framework. Baseado na vídeo aula [Aplicação com Angular 12+: Como desenvolver uma pokedex](https://www.youtube.com/watch?v=UhOcUII_5PU)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
