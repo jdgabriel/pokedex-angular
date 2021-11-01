@@ -1,0 +1,36 @@
+@import "./calc.scss";
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  padding: rem-calc(20) 0;
+  border-radius: rem-calc(10);
+
+  text-decoration: none;
+
+  color: var(--white);
+  text-transform: uppercase;
+
+  outline: none;
+  border: none;
+
+  &__primary {
+    margin-top: rem-calc(20);
+    background: var(--primary-color);
+    &:hover {
+      background: var(--primary-color-hover);
+      cursor: pointer;
+    }
+  }
+
+  &__secondary {
+    background: var(--secondary-color);
+    &:hover {
+      background: var(--secondary-color-hover);
+      cursor: pointer;
+    }
+  }
+}

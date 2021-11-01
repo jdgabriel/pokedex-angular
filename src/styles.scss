@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+@import "./scss/reset.scss";
+@import "./scss/variables.scss";
+@import "./scss/animation.scss";
+@import "./scss/calc.scss";
+@import "./scss/button.scss";
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+html {
+  background: var(--primary-color);
+}
+main {
+  width: rem-calc(1200);
+  margin: 0 auto;
+  padding-bottom: rem-calc(100);
+  box-sizing: border-box;
+}
+
+.main-600 {
+  width: rem-calc(600) !important;
+}

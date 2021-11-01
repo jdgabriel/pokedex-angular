@@ -1,0 +1,80 @@
+@import "../../../scss/calc.scss";
+
+:host {
+  .pokemon {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: rem-calc(20);
+
+    .pokemon__box {
+      display: flex;
+      flex: 1;
+      background: var(--white);
+      padding: rem-calc(20) rem-calc(20);
+      border-radius: rem-calc(8);
+
+      height: rem-calc(120);
+
+      text-decoration: none;
+
+      border: 2px solid var(--tertiary-color);
+
+      transition: border 0.1s ease-in-out;
+
+      &:hover {
+        border: 2px solid var(--white);
+      }
+
+      &__status {
+        h2 {
+          font-size: rem-calc(20);
+          font-style: italic;
+          font-weight: 700;
+          color: var(--primary-color);
+          text-transform: capitalize;
+        }
+
+        ul {
+          display: flex;
+          flex-direction: column;
+          margin-top: rem-calc(10);
+          li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-transform: capitalize;
+            padding: rem-calc(5);
+            margin-bottom: rem-calc(5);
+
+            background: var(--gray);
+            color: var(--primary-color);
+            border-radius: rem-calc(8);
+            font-size: rem-calc(12);
+          }
+        }
+      }
+
+      &__image {
+        display: flex;
+        flex: 1;
+
+        justify-content: flex-end;
+        align-items: center;
+        align-self: flex-end;
+
+        padding: rem-calc(20);
+        background: url("../../../assets/background/lista-bg.svg") no-repeat
+          right bottom;
+
+        position: relative;
+
+        img {
+          position: relative;
+          top: rem-calc(15);
+          width: rem-calc(85);
+          height: auto;
+        }
+      }
+    }
+  }
+}
